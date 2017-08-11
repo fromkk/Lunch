@@ -9,7 +9,7 @@
 import XCTest
 import LunchTest
 
-struct DinnerViewControllerComponents: Componentable {
+struct DinnerViewControllerPage: PageObjectsRepresentable {
     var app: XCUIApplication
     init(app: XCUIApplication) {
         self.app = app

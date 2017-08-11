@@ -19,7 +19,7 @@ public struct Launcher {
         self.userInfo = userInfo
     }
     
-    public func env() -> [String: String] {
+    public var env: [String: String] {
         var result: [String: String] = [
             LaunchKeys.viewController: self.targetViewController.viewControllerName
         ]
@@ -44,7 +44,7 @@ public struct Launcher {
     @discardableResult
     public func launch() -> XCUIApplication {
         let app: XCUIApplication = XCUIApplication()
-        app.launchEnvironment = env()
+        app.launchEnvironment = env
         app.launchArguments = arguments
         app.launch()
         return app

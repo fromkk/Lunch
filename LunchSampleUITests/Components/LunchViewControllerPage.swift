@@ -1,5 +1,5 @@
 //
-//  LunchViewControllerComponents.swift
+//  LunchViewControllerPage.swift
 //  LunchSample
 //
 //  Created by Kazuya Ueoka on 2017/08/11.
@@ -9,7 +9,7 @@
 import XCTest
 import LunchTest
 
-struct LunchViewControllerComponents: Componentable {
+struct LunchViewControllerPage: PageObjectsRepresentable {
     var app: XCUIApplication
     init(app: XCUIApplication) {
         self.app = app

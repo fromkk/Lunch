@@ -1,5 +1,5 @@
 //
-//  Componentable.swift
+//  PageObjectsRepresentable.swift
 //  LunchSample
 //
 //  Created by Kazuya Ueoka on 2017/08/11.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-public protocol Componentable {
-    var app: XCUIApplication { get }
+public protocol PageObjectsRepresentable {
+    var app: XCUIApplication { get set }
     init(app: XCUIApplication)
 }

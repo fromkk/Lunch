@@ -25,8 +25,8 @@ class DinnerViewControllerTests: XCTestCase, ViewControllerTestable {
         let launcher = Launcher(targetViewController: self)
         let app = launcher.launch()
         
-        let components = DinnerViewControllerComponents(app: app)
-        XCTAssertTrue(components.dinnerLabel.exists)
-        XCTAssertEqual(components.dinnerLabel.label, "Dinner")
+        let pageObjects = DinnerViewControllerPage(app: app)
+        XCTAssertTrue(pageObjects.dinnerLabel.exists)
+        XCTAssertEqual(pageObjects.dinnerLabel.label, "Dinner")
     }
 }
