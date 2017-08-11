@@ -4,10 +4,20 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>LunchSample.xcscheme</key>
+		<key>Lunch.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>LunchSample.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>LunchTest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +28,21 @@
 			<true/>
 		</dict>
 		<key>AD8D729B1F3DA6C900D5969F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AD8D72AF1F3DA6D900D5969F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AD8D72C11F3DA6E200D5969F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AD8D72D21F3DA70000D5969F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

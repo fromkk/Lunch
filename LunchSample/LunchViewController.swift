@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LunchViewController.swift
 //  LunchSample
 //
 //  Created by Kazuya Ueoka on 2017/08/11.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LunchViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AD8D72871F3DA6C900D5969F"
-               BuildableName = "LunchSample.app"
-               BlueprintName = "LunchSample"
+               BlueprintIdentifier = "AD8D72D21F3DA70000D5969F"
+               BuildableName = "LunchTest.framework"
+               BlueprintName = "LunchTest"
                ReferencedContainer = "container:LunchSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AD8D729B1F3DA6C900D5969F"
-               BuildableName = "LunchSampleUITests.xctest"
-               BlueprintName = "LunchSampleUITests"
-               ReferencedContainer = "container:LunchSample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AD8D72871F3DA6C900D5969F"
-            BuildableName = "LunchSample.app"
-            BlueprintName = "LunchSample"
-            ReferencedContainer = "container:LunchSample.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -61,28 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AD8D72871F3DA6C900D5969F"
-            BuildableName = "LunchSample.app"
-            BlueprintName = "LunchSample"
+            BlueprintIdentifier = "AD8D72D21F3DA70000D5969F"
+            BuildableName = "LunchTest.framework"
+            BlueprintName = "LunchTest"
             ReferencedContainer = "container:LunchSample.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "LAUNCH_VIEW_CONTROLLER"
-            value = "LunchViewController"
-            isEnabled = "NO">
-         </EnvironmentVariable>
-         <EnvironmentVariable
-            key = "LAUNCH_VIEW_CONTROLLER"
-            value = "DinnerViewController"
-            isEnabled = "NO">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -92,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AD8D72871F3DA6C900D5969F"
-            BuildableName = "LunchSample.app"
-            BlueprintName = "LunchSample"
+            BlueprintIdentifier = "AD8D72D21F3DA70000D5969F"
+            BuildableName = "LunchTest.framework"
+            BlueprintName = "LunchTest"
             ReferencedContainer = "container:LunchSample.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

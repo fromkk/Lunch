@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Lunch
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.backgroundColor = .white
+        
+        let chef = Chef()
+        let rootViewController: UIViewController
+        #if DEBUG
+        if let viewController: UIViewController = Launcher(with: chef).launch() {
+            rootViewController = viewController
+        } else {
+            rootViewController = chef.lunchViewController()
+        }
+        #else
+        rootViewController = chef.lunchViewController()
+        #endif
+        window?.rootViewController = rootViewController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
