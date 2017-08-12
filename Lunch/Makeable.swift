@@ -8,6 +8,6 @@
 
 import Foundation
 
-public protocol Cookable {
-    func cook<T>(_ identifier: String, userInfo: [AnyHashable: Any]?) -> T?
+public protocol Makeable {
+    func make<T>(_ identifier: String, userInfo: [AnyHashable: Any]?) -> T?
 }

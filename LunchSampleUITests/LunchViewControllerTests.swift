@@ -22,7 +22,7 @@ class LunchViewControllerTests: XCTestCase, ViewControllerTestable {
     }
     
     func testLunchLabel() {
-        let launcher = Launcher(targetViewController: self)
+        let launcher = Launcher(targetViewController: self, userInfo: ["MOCK_JSON": "{\"hoge\": \"fuga\"}"])
         let app = launcher.launch()
         
         let pageObjects = LunchViewControllerPage(app: app)

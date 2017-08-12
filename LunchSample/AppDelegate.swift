@@ -20,16 +20,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = .white
         
-        let chef = Chef()
+        let maker = Maker()
         let rootViewController: UIViewController
         #if DEBUG
-        if let viewController: UIViewController = Launcher(with: chef).launch() {
+        if let viewController: UIViewController = Launcher(with: maker).launch() {
             rootViewController = viewController
         } else {
-            rootViewController = chef.lunchViewController()
+            rootViewController = maker.lunchViewController()
         }
         #else
-        rootViewController = chef.lunchViewController()
+        rootViewController = maker.lunchViewController()
         #endif
         window?.rootViewController = rootViewController
         window?.makeKeyAndVisible()

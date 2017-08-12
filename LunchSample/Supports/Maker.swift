@@ -9,8 +9,8 @@
 import Foundation
 import Lunch
 
-struct Chef: Cookable {
-    func cook<T>(_ identifier: String, userInfo: [AnyHashable : Any]?) -> T? {
+struct Maker: Makeable {
+    func make<T>(_ identifier: String, userInfo: [AnyHashable : Any]?) -> T? {
         switch identifier {
         case "LunchViewController":
             return self.lunchViewController() as? T
@@ -22,7 +22,7 @@ struct Chef: Cookable {
     }
 }
 
-extension Chef {
+extension Maker {
     func lunchViewController() -> LunchViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         return storyboard.instantiateInitialViewController() as! LunchViewController

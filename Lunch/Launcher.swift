@@ -9,10 +9,10 @@
 import Foundation
 
 public struct Launcher {
-    public var cookable: Cookable
+    public var maker: Makeable
     
-    public init(with cookable: Cookable) {
-        self.cookable = cookable
+    public init(with maker: Makeable) {
+        self.maker = maker
     }
     
     public func launch<T>() -> T? {
@@ -26,6 +26,6 @@ public struct Launcher {
             userInfo = (try? JSONSerialization.jsonObject(with: userInfoData, options: [])) as? [AnyHashable : Any]
         }
         
-        return self.cookable.cook(viewControllerName, userInfo: userInfo)
+        return self.maker.make(viewControllerName, userInfo: userInfo)
     }
 }

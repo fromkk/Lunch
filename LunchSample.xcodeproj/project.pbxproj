@@ -15,12 +15,12 @@
 		AD8D72A11F3DA6C900D5969F /* LunchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72A01F3DA6C900D5969F /* LunchViewControllerTests.swift */; };
 		AD8D72B41F3DA6D900D5969F /* Lunch.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8D72B21F3DA6D900D5969F /* Lunch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD8D72D71F3DA70000D5969F /* LunchTest.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8D72D51F3DA70000D5969F /* LunchTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD8D72E21F3DA80C00D5969F /* Cookable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72E11F3DA80C00D5969F /* Cookable.swift */; };
+		AD8D72E21F3DA80C00D5969F /* Makeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72E11F3DA80C00D5969F /* Makeable.swift */; };
 		AD8D72E41F3DA83300D5969F /* Launcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72E31F3DA83300D5969F /* Launcher.swift */; };
 		AD8D72E61F3DA88D00D5969F /* ViewControllerTestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72E51F3DA88D00D5969F /* ViewControllerTestable.swift */; };
 		AD8D72E81F3DA8A000D5969F /* Launcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72E71F3DA8A000D5969F /* Launcher.swift */; };
 		AD8D72EB1F3DAA1600D5969F /* PageObjectsRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72EA1F3DAA1600D5969F /* PageObjectsRepresentable.swift */; };
-		AD8D72EE1F3DAD0E00D5969F /* Chef.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72ED1F3DAD0E00D5969F /* Chef.swift */; };
+		AD8D72EE1F3DAD0E00D5969F /* Maker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72ED1F3DAD0E00D5969F /* Maker.swift */; };
 		AD8D72F31F3DCDEB00D5969F /* LunchViewControllerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72F21F3DCDEB00D5969F /* LunchViewControllerPage.swift */; };
 		AD8D72F41F3DCED700D5969F /* LunchTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8D72D31F3DA70000D5969F /* LunchTest.framework */; };
 		AD8D72F51F3DCF2D00D5969F /* LaunchKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72DF1F3DA74E00D5969F /* LaunchKeys.swift */; };
@@ -81,12 +81,12 @@
 		AD8D72D51F3DA70000D5969F /* LunchTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LunchTest.h; sourceTree = "<group>"; };
 		AD8D72D61F3DA70000D5969F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD8D72DF1F3DA74E00D5969F /* LaunchKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaunchKeys.swift; path = Lunch/LaunchKeys.swift; sourceTree = SOURCE_ROOT; };
-		AD8D72E11F3DA80C00D5969F /* Cookable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookable.swift; sourceTree = "<group>"; };
+		AD8D72E11F3DA80C00D5969F /* Makeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Makeable.swift; sourceTree = "<group>"; };
 		AD8D72E31F3DA83300D5969F /* Launcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Launcher.swift; sourceTree = "<group>"; };
 		AD8D72E51F3DA88D00D5969F /* ViewControllerTestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTestable.swift; sourceTree = "<group>"; };
 		AD8D72E71F3DA8A000D5969F /* Launcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Launcher.swift; sourceTree = "<group>"; };
 		AD8D72EA1F3DAA1600D5969F /* PageObjectsRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageObjectsRepresentable.swift; sourceTree = "<group>"; };
-		AD8D72ED1F3DAD0E00D5969F /* Chef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chef.swift; sourceTree = "<group>"; };
+		AD8D72ED1F3DAD0E00D5969F /* Maker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maker.swift; sourceTree = "<group>"; };
 		AD8D72EF1F3DC8AD00D5969F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AD8D72F01F3DC8B900D5969F /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		AD8D72F21F3DCDEB00D5969F /* LunchViewControllerPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchViewControllerPage.swift; sourceTree = "<group>"; };
@@ -184,7 +184,7 @@
 			children = (
 				AD8D72B21F3DA6D900D5969F /* Lunch.h */,
 				AD8D72B31F3DA6D900D5969F /* Info.plist */,
-				AD8D72E11F3DA80C00D5969F /* Cookable.swift */,
+				AD8D72E11F3DA80C00D5969F /* Makeable.swift */,
 				AD8D72E31F3DA83300D5969F /* Launcher.swift */,
 				AD8D72DF1F3DA74E00D5969F /* LaunchKeys.swift */,
 			);
@@ -206,7 +206,7 @@
 		AD8D72EC1F3DAC2E00D5969F /* Supports */ = {
 			isa = PBXGroup;
 			children = (
-				AD8D72ED1F3DAD0E00D5969F /* Chef.swift */,
+				AD8D72ED1F3DAD0E00D5969F /* Maker.swift */,
 			);
 			path = Supports;
 			sourceTree = "<group>";
@@ -413,7 +413,7 @@
 			files = (
 				ADFEB5B41F3DD1AE00248E78 /* DinnerViewController.swift in Sources */,
 				AD8D728E1F3DA6C900D5969F /* LunchViewController.swift in Sources */,
-				AD8D72EE1F3DAD0E00D5969F /* Chef.swift in Sources */,
+				AD8D72EE1F3DAD0E00D5969F /* Maker.swift in Sources */,
 				AD8D728C1F3DA6C900D5969F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +434,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD8D72F51F3DCF2D00D5969F /* LaunchKeys.swift in Sources */,
-				AD8D72E21F3DA80C00D5969F /* Cookable.swift in Sources */,
+				AD8D72E21F3DA80C00D5969F /* Makeable.swift in Sources */,
 				AD8D72E41F3DA83300D5969F /* Launcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
