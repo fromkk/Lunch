@@ -26,8 +26,8 @@ import Lunch
 struct Maker: Makeable {
     func make<T>(_ identifier: String, userInfo: [AnyHashable : Any]?) -> T? {
         switch identifier {
-        case "ViewController":
-            return self.viewController() as? T
+        case "LunchViewController":
+            return self.lunchViewController() as? T
         default:
             return nil
         }
@@ -35,9 +35,9 @@ struct Maker: Makeable {
 }
 
 extension Makeable {
-    func viewController() -> ViewController {
+    func lunchViewController() -> LunchViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        return storyboard.instantiateInitialViewController() as! ViewController
+        return storyboard.instantiateInitialViewController() as! LunchViewController
     }
 }
 
@@ -63,13 +63,13 @@ window?.rootViewController = rootViewController
 
 In UI Test target.
 
-1 Add component and adopt protocol `Componentable`.
+1 Add component and adopt protocol `PageObjectsRepresentable`.
 
 ```swift
 import XCTest
 import LunchTest
 
-struct LunchViewControllerComponents: Componentable {
+struct LunchViewControllerPage: PageObjectsRepresentable {
     var app: XCUIApplication
     init(app: XCUIApplication) {
         self.app = app
@@ -103,9 +103,9 @@ class LunchViewControllerTests: XCTestCase, ViewControllerTestable {
         let launcher = Launcher(targetViewController: self)
         let app = launcher.launch()
 
-        let components = LunchViewControllerComponents(app: app)
-        XCTAssertTrue(components.lunchLabel.exists)
-        XCTAssertEqual(components.lunchLabel.label, "Lunch")
+        let page = LunchViewControllerPage(app: app)
+        XCTAssertTrue(page.lunchLabel.exists)
+        XCTAssertEqual(page.lunchLabel.label, "Lunch")
     }
 }
 ```
