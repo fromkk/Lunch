@@ -1,5 +1,5 @@
 //
-//  Chef.swift
+//  Maker.swift
 //  LunchSample
 //
 //  Created by Kazuya Ueoka on 2017/08/11.
