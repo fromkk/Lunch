@@ -30,6 +30,10 @@
 		ADFEB5B41F3DD1AE00248E78 /* DinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEB5B31F3DD1AE00248E78 /* DinnerViewController.swift */; };
 		ADFEB5B61F3DD32000248E78 /* DinnerViewControllerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEB5B51F3DD32000248E78 /* DinnerViewControllerPage.swift */; };
 		ADFEB5B81F3DD38100248E78 /* DinnerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEB5B71F3DD38100248E78 /* DinnerViewControllerTests.swift */; };
+		ADFEB5BB1F3EA19B00248E78 /* BreakfastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEB5BA1F3EA19B00248E78 /* BreakfastViewController.swift */; };
+		ADFEB5BD1F3EA1BC00248E78 /* MenuRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEB5BC1F3EA1BC00248E78 /* MenuRepresentable.swift */; };
+		ADFEB5BF1F3EA21700248E78 /* BreakfastViewControllerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEB5BE1F3EA21700248E78 /* BreakfastViewControllerPage.swift */; };
+		ADFEB5C11F3EA26400248E78 /* BreakfastViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEB5C01F3EA26400248E78 /* BreakfastViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +97,10 @@
 		ADFEB5B31F3DD1AE00248E78 /* DinnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinnerViewController.swift; sourceTree = "<group>"; };
 		ADFEB5B51F3DD32000248E78 /* DinnerViewControllerPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinnerViewControllerPage.swift; sourceTree = "<group>"; };
 		ADFEB5B71F3DD38100248E78 /* DinnerViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinnerViewControllerTests.swift; sourceTree = "<group>"; };
+		ADFEB5BA1F3EA19B00248E78 /* BreakfastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakfastViewController.swift; sourceTree = "<group>"; };
+		ADFEB5BC1F3EA1BC00248E78 /* MenuRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuRepresentable.swift; sourceTree = "<group>"; };
+		ADFEB5BE1F3EA21700248E78 /* BreakfastViewControllerPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakfastViewControllerPage.swift; sourceTree = "<group>"; };
+		ADFEB5C01F3EA26400248E78 /* BreakfastViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakfastViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,8 +164,10 @@
 		AD8D728A1F3DA6C900D5969F /* LunchSample */ = {
 			isa = PBXGroup;
 			children = (
+				ADFEB5B91F3E982D00248E78 /* Models */,
 				AD8D72EC1F3DAC2E00D5969F /* Supports */,
 				AD8D728B1F3DA6C900D5969F /* AppDelegate.swift */,
+				ADFEB5BA1F3EA19B00248E78 /* BreakfastViewController.swift */,
 				AD8D728D1F3DA6C900D5969F /* LunchViewController.swift */,
 				ADFEB5B31F3DD1AE00248E78 /* DinnerViewController.swift */,
 				AD8D728F1F3DA6C900D5969F /* Main.storyboard */,
@@ -174,6 +184,7 @@
 				AD8D72F11F3DCDCF00D5969F /* Pages */,
 				AD8D72A01F3DA6C900D5969F /* LunchViewControllerTests.swift */,
 				ADFEB5B71F3DD38100248E78 /* DinnerViewControllerTests.swift */,
+				ADFEB5C01F3EA26400248E78 /* BreakfastViewControllerTests.swift */,
 				AD8D72A21F3DA6C900D5969F /* Info.plist */,
 			);
 			path = LunchSampleUITests;
@@ -216,9 +227,18 @@
 			children = (
 				AD8D72F21F3DCDEB00D5969F /* LunchViewControllerPage.swift */,
 				ADFEB5B51F3DD32000248E78 /* DinnerViewControllerPage.swift */,
+				ADFEB5BE1F3EA21700248E78 /* BreakfastViewControllerPage.swift */,
 			);
 			name = Pages;
 			path = Components;
+			sourceTree = "<group>";
+		};
+		ADFEB5B91F3E982D00248E78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADFEB5BC1F3EA1BC00248E78 /* MenuRepresentable.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,7 +432,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADFEB5B41F3DD1AE00248E78 /* DinnerViewController.swift in Sources */,
+				ADFEB5BB1F3EA19B00248E78 /* BreakfastViewController.swift in Sources */,
 				AD8D728E1F3DA6C900D5969F /* LunchViewController.swift in Sources */,
+				ADFEB5BD1F3EA1BC00248E78 /* MenuRepresentable.swift in Sources */,
 				AD8D72EE1F3DAD0E00D5969F /* Maker.swift in Sources */,
 				AD8D728C1F3DA6C900D5969F /* AppDelegate.swift in Sources */,
 			);
@@ -423,6 +445,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADFEB5B81F3DD38100248E78 /* DinnerViewControllerTests.swift in Sources */,
+				ADFEB5BF1F3EA21700248E78 /* BreakfastViewControllerPage.swift in Sources */,
+				ADFEB5C11F3EA26400248E78 /* BreakfastViewControllerTests.swift in Sources */,
 				AD8D72A11F3DA6C900D5969F /* LunchViewControllerTests.swift in Sources */,
 				ADFEB5B61F3DD32000248E78 /* DinnerViewControllerPage.swift in Sources */,
 				AD8D72F31F3DCDEB00D5969F /* LunchViewControllerPage.swift in Sources */,

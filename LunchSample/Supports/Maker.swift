@@ -12,6 +12,15 @@ import Lunch
 struct Maker: Makeable {
     func make<T>(_ identifier: String, userInfo: [AnyHashable : Any]?) -> T? {
         switch identifier {
+        case "BreakfastViewController":
+            let model: MenuModel
+            if let data = (userInfo?["MOCK_JSON"] as? String)?.data(using: .utf8),
+            let json: [String: String] = (try? JSONSerialization.jsonObject(with: data, options: [])) as? [String: String] {
+                model = MenuModel(menu: json["menu"] ?? "")
+            } else {
+                model = MenuModel(menu: "")
+            }
+            return self.breakfastViewController(menu: model) as? T
         case "LunchViewController":
             return self.lunchViewController() as? T
         case "DinnerViewController":
@@ -23,6 +32,10 @@ struct Maker: Makeable {
 }
 
 extension Maker {
+    func breakfastViewController(menu: MenuRepresentable) -> BreakfastViewController {
+        return BreakfastViewController(menuModel: menu)
+    }
+    
     func lunchViewController() -> LunchViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         return storyboard.instantiateInitialViewController() as! LunchViewController

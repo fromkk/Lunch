@@ -78,6 +78,16 @@
             isEnabled = "NO">
          </EnvironmentVariable>
          <EnvironmentVariable
+            key = "LAUNCH_USER_INFO"
+            value = "{&quot;MOCK_JSON&quot;: &quot;{\&quot;menu\&quot;: \&quot;Rice\&quot;}&quot;}"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "LAUNCH_VIEW_CONTROLLER"
+            value = "BreakfastViewController"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
             key = "LAUNCH_VIEW_CONTROLLER"
             value = "DinnerViewController"
             isEnabled = "NO">
