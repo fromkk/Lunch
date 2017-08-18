@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD76395D1F47121900BDF5A8 /* Lunch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8D72B01F3DA6D900D5969F /* Lunch.framework */; };
+		AD7639641F47122B00BDF5A8 /* LauncherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7639631F47122B00BDF5A8 /* LauncherTests.swift */; };
+		AD76396E1F47150500BDF5A8 /* LunchTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8D72D31F3DA70000D5969F /* LunchTest.framework */; };
+		AD7639751F47152100BDF5A8 /* LauncherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7639741F47152100BDF5A8 /* LauncherTests.swift */; };
 		AD8D728C1F3DA6C900D5969F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D728B1F3DA6C900D5969F /* AppDelegate.swift */; };
 		AD8D728E1F3DA6C900D5969F /* LunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D728D1F3DA6C900D5969F /* LunchViewController.swift */; };
 		AD8D72911F3DA6C900D5969F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8D728F1F3DA6C900D5969F /* Main.storyboard */; };
@@ -37,6 +41,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		AD76395E1F47121900BDF5A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD8D72801F3DA6C900D5969F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD8D72AF1F3DA6D900D5969F;
+			remoteInfo = Lunch;
+		};
+		AD76396F1F47150500BDF5A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD8D72801F3DA6C900D5969F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD8D72D21F3DA70000D5969F;
+			remoteInfo = LunchTest;
+		};
 		AD8D729D1F3DA6C900D5969F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AD8D72801F3DA6C900D5969F /* Project object */;
@@ -68,6 +86,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD7639581F47121900BDF5A8 /* LunchUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunchUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD76395C1F47121900BDF5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7639631F47122B00BDF5A8 /* LauncherTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LauncherTests.swift; sourceTree = "<group>"; };
+		AD7639691F47150500BDF5A8 /* LunchTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunchTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD76396D1F47150500BDF5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7639741F47152100BDF5A8 /* LauncherTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LauncherTests.swift; sourceTree = "<group>"; };
 		AD8D72881F3DA6C900D5969F /* LunchSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunchSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8D728B1F3DA6C900D5969F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD8D728D1F3DA6C900D5969F /* LunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +128,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AD7639551F47121900BDF5A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD76395D1F47121900BDF5A8 /* Lunch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7639661F47150500BDF5A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD76396E1F47150500BDF5A8 /* LunchTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD8D72851F3DA6C900D5969F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,6 +177,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD7639591F47121900BDF5A8 /* LunchUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD7639631F47122B00BDF5A8 /* LauncherTests.swift */,
+				AD76395C1F47121900BDF5A8 /* Info.plist */,
+			);
+			path = LunchUnitTests;
+			sourceTree = "<group>";
+		};
+		AD76396A1F47150500BDF5A8 /* LunchTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD76396D1F47150500BDF5A8 /* Info.plist */,
+				AD7639741F47152100BDF5A8 /* LauncherTests.swift */,
+			);
+			path = LunchTestTests;
+			sourceTree = "<group>";
+		};
 		AD8D727F1F3DA6C900D5969F = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +204,8 @@
 				AD8D729F1F3DA6C900D5969F /* LunchSampleUITests */,
 				AD8D72B11F3DA6D900D5969F /* Lunch */,
 				AD8D72D41F3DA70000D5969F /* LunchTest */,
+				AD7639591F47121900BDF5A8 /* LunchUnitTests */,
+				AD76396A1F47150500BDF5A8 /* LunchTestTests */,
 				AD8D72891F3DA6C900D5969F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -157,6 +217,8 @@
 				AD8D729C1F3DA6C900D5969F /* LunchSampleUITests.xctest */,
 				AD8D72B01F3DA6D900D5969F /* Lunch.framework */,
 				AD8D72D31F3DA70000D5969F /* LunchTest.framework */,
+				AD7639581F47121900BDF5A8 /* LunchUnitTests.xctest */,
+				AD7639691F47150500BDF5A8 /* LunchTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -263,6 +325,42 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		AD7639571F47121900BDF5A8 /* LunchUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7639621F47121900BDF5A8 /* Build configuration list for PBXNativeTarget "LunchUnitTests" */;
+			buildPhases = (
+				AD7639541F47121900BDF5A8 /* Sources */,
+				AD7639551F47121900BDF5A8 /* Frameworks */,
+				AD7639561F47121900BDF5A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD76395F1F47121900BDF5A8 /* PBXTargetDependency */,
+			);
+			name = LunchUnitTests;
+			productName = LunchUnitTests;
+			productReference = AD7639581F47121900BDF5A8 /* LunchUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD7639681F47150500BDF5A8 /* LunchTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7639711F47150500BDF5A8 /* Build configuration list for PBXNativeTarget "LunchTestTests" */;
+			buildPhases = (
+				AD7639651F47150500BDF5A8 /* Sources */,
+				AD7639661F47150500BDF5A8 /* Frameworks */,
+				AD7639671F47150500BDF5A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD7639701F47150500BDF5A8 /* PBXTargetDependency */,
+			);
+			name = LunchTestTests;
+			productName = LunchTestTests;
+			productReference = AD7639691F47150500BDF5A8 /* LunchTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		AD8D72871F3DA6C900D5969F /* LunchSample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD8D72A51F3DA6C900D5969F /* Build configuration list for PBXNativeTarget "LunchSample" */;
@@ -346,6 +444,17 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = fromKK;
 				TargetAttributes = {
+					AD7639571F47121900BDF5A8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K84E4S7G4C;
+						ProvisioningStyle = Automatic;
+					};
+					AD7639681F47150500BDF5A8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = K84E4S7G4C;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
 					AD8D72871F3DA6C900D5969F = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Manual;
@@ -384,11 +493,27 @@
 				AD8D729B1F3DA6C900D5969F /* LunchSampleUITests */,
 				AD8D72AF1F3DA6D900D5969F /* Lunch */,
 				AD8D72D21F3DA70000D5969F /* LunchTest */,
+				AD7639571F47121900BDF5A8 /* LunchUnitTests */,
+				AD7639681F47150500BDF5A8 /* LunchTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		AD7639561F47121900BDF5A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7639671F47150500BDF5A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD8D72861F3DA6C900D5969F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,6 +548,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AD7639541F47121900BDF5A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7639641F47122B00BDF5A8 /* LauncherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD7639651F47150500BDF5A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7639751F47152100BDF5A8 /* LauncherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AD8D72841F3DA6C900D5969F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -473,6 +614,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		AD76395F1F47121900BDF5A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD8D72AF1F3DA6D900D5969F /* Lunch */;
+			targetProxy = AD76395E1F47121900BDF5A8 /* PBXContainerItemProxy */;
+		};
+		AD7639701F47150500BDF5A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD8D72D21F3DA70000D5969F /* LunchTest */;
+			targetProxy = AD76396F1F47150500BDF5A8 /* PBXContainerItemProxy */;
+		};
 		AD8D729E1F3DA6C900D5969F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AD8D72871F3DA6C900D5969F /* LunchSample */;
@@ -505,6 +656,61 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		AD7639601F47121900BDF5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				INFOPLIST_FILE = LunchUnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fromkk.me.LunchUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AD7639611F47121900BDF5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				INFOPLIST_FILE = LunchUnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fromkk.me.LunchUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AD7639721F47150500BDF5A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				INFOPLIST_FILE = LunchTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fromkk.me.LunchTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AD7639731F47150500BDF5A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = K84E4S7G4C;
+				INFOPLIST_FILE = LunchTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fromkk.me.LunchTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		AD8D72A31F3DA6C900D5969F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -797,6 +1003,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AD7639621F47121900BDF5A8 /* Build configuration list for PBXNativeTarget "LunchUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7639601F47121900BDF5A8 /* Debug */,
+				AD7639611F47121900BDF5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD7639711F47150500BDF5A8 /* Build configuration list for PBXNativeTarget "LunchTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7639721F47150500BDF5A8 /* Debug */,
+				AD7639731F47150500BDF5A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		AD8D72831F3DA6C900D5969F /* Build configuration list for PBXProject "LunchSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
