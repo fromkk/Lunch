@@ -6,7 +6,7 @@ Lunch is helper of UI Test with Swift.
 
 ## Requirements
 
-- Swift 3.0 or later
+- Swift 4.0 or later
 - iOS 9 or later
 
 ## Installation
