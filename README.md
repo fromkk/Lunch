@@ -1,5 +1,7 @@
 # Lunch
 
+<img src="https://raw.githubusercontent.com/wiki/fromkk/Lunch/images/Logo.png?token=AATtciCa1cLOpl763V27RGixyyJuyegtks5Zz4sOwA%3D%3D" width="480" height="auto">
+
 Lunch is helper of UI Test with Swift.
 
 ## Requirements
