@@ -63,6 +63,8 @@ rootViewController = maker.viewController()
 window?.rootViewController = rootViewController
 ```
 
+> NOTE: If you want change rootViewController after `Run` Xcode, set `LAUNCH_VIEW_CONTROLLER` key and viewController name to value in `Environment Variables` of your scheme.
+
 In UI Test target.
 
 1 Add component and adopt protocol `PageObjectsRepresentable`.
