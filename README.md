@@ -1,6 +1,6 @@
 # Lunch
 
-<img src="https://raw.githubusercontent.com/wiki/fromkk/Lunch/images/Logo.png?token=AATtciCa1cLOpl763V27RGixyyJuyegtks5Zz4sOwA%3D%3D" width="480" height="auto">
+<img src="https://user-images.githubusercontent.com/322930/31062950-9f8bf88c-a769-11e7-962a-2f228c4b2de7.png" width="480" height="auto">
 
 Lunch is helper of UI Test with Swift.
 
