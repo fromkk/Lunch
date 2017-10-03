@@ -20,13 +20,13 @@ Lunch is helper of UI Test with Swift.
 
 ## Usage
 
-In App target adopt protocol `Makeable`.
+In App target adopt protocol `Creatable`.
 
 ```swift
 import Lunch
 
-struct Maker: Makeable {
-    func make<T>(_ identifier: String, userInfo: [AnyHashable : Any]?) -> T? {
+struct Creator: Creatable {
+    func create<T>(_ identifier: String, userInfo: [AnyHashable : Any]?) -> T? {
         switch identifier {
         case "LunchViewController":
             return self.lunchViewController() as? T
@@ -36,7 +36,7 @@ struct Maker: Makeable {
     }
 }
 
-extension Makeable {
+extension Creatable {
     func lunchViewController() -> LunchViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         return storyboard.instantiateInitialViewController() as! LunchViewController
@@ -49,16 +49,16 @@ extension Makeable {
 // AppDelegate.swift
 import Lunch
 
-let maker = Maker()
+let creator = Creator()
 let rootViewController: UIViewController
 #if DEBUG
-if let viewController: UIViewController = Launcher(with: maker).launch() {
+if let viewController: UIViewController = Launcher(with: creator).launch() {
     rootViewController = viewController
 } else {
-    rootViewController = maker.viewController()
+    rootViewController = creator.viewController()
 }
 #else
-rootViewController = maker.viewController()
+rootViewController = creator.viewController()
 #endif
 window?.rootViewController = rootViewController
 ```

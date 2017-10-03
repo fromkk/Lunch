@@ -9,10 +9,10 @@
 import Foundation
 
 public struct Launcher {
-    public var maker: Makeable
+    public var creator: Creatable
     
-    public init(with maker: Makeable) {
-        self.maker = maker
+    public init(with creator: Creatable) {
+        self.creator = creator
     }
     
     public func launch<T>() -> T? {
@@ -26,6 +26,6 @@ public struct Launcher {
             userInfo = (try? JSONSerialization.jsonObject(with: userInfoData, options: [])) as? [AnyHashable : Any]
         }
         
-        return self.maker.make(viewControllerName, userInfo: userInfo)
+        return self.creator.create(viewControllerName, userInfo: userInfo)
     }
 }

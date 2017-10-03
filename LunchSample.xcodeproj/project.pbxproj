@@ -19,12 +19,12 @@
 		AD8D72A11F3DA6C900D5969F /* LunchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72A01F3DA6C900D5969F /* LunchViewControllerTests.swift */; };
 		AD8D72B41F3DA6D900D5969F /* Lunch.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8D72B21F3DA6D900D5969F /* Lunch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD8D72D71F3DA70000D5969F /* LunchTest.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8D72D51F3DA70000D5969F /* LunchTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD8D72E21F3DA80C00D5969F /* Makeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72E11F3DA80C00D5969F /* Makeable.swift */; };
+		AD8D72E21F3DA80C00D5969F /* Creatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72E11F3DA80C00D5969F /* Creatable.swift */; };
 		AD8D72E41F3DA83300D5969F /* Launcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72E31F3DA83300D5969F /* Launcher.swift */; };
 		AD8D72E61F3DA88D00D5969F /* ViewControllerTestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72E51F3DA88D00D5969F /* ViewControllerTestable.swift */; };
 		AD8D72E81F3DA8A000D5969F /* Launcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72E71F3DA8A000D5969F /* Launcher.swift */; };
 		AD8D72EB1F3DAA1600D5969F /* PageObjectsRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72EA1F3DAA1600D5969F /* PageObjectsRepresentable.swift */; };
-		AD8D72EE1F3DAD0E00D5969F /* Maker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72ED1F3DAD0E00D5969F /* Maker.swift */; };
+		AD8D72EE1F3DAD0E00D5969F /* Creator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72ED1F3DAD0E00D5969F /* Creator.swift */; };
 		AD8D72F31F3DCDEB00D5969F /* LunchViewControllerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72F21F3DCDEB00D5969F /* LunchViewControllerPage.swift */; };
 		AD8D72F41F3DCED700D5969F /* LunchTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8D72D31F3DA70000D5969F /* LunchTest.framework */; };
 		AD8D72F51F3DCF2D00D5969F /* LaunchKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72DF1F3DA74E00D5969F /* LaunchKeys.swift */; };
@@ -109,12 +109,12 @@
 		AD8D72D51F3DA70000D5969F /* LunchTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LunchTest.h; sourceTree = "<group>"; };
 		AD8D72D61F3DA70000D5969F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD8D72DF1F3DA74E00D5969F /* LaunchKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LaunchKeys.swift; path = Lunch/LaunchKeys.swift; sourceTree = SOURCE_ROOT; };
-		AD8D72E11F3DA80C00D5969F /* Makeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Makeable.swift; sourceTree = "<group>"; };
+		AD8D72E11F3DA80C00D5969F /* Creatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Creatable.swift; sourceTree = "<group>"; };
 		AD8D72E31F3DA83300D5969F /* Launcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Launcher.swift; sourceTree = "<group>"; };
 		AD8D72E51F3DA88D00D5969F /* ViewControllerTestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTestable.swift; sourceTree = "<group>"; };
 		AD8D72E71F3DA8A000D5969F /* Launcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Launcher.swift; sourceTree = "<group>"; };
 		AD8D72EA1F3DAA1600D5969F /* PageObjectsRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageObjectsRepresentable.swift; sourceTree = "<group>"; };
-		AD8D72ED1F3DAD0E00D5969F /* Maker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maker.swift; sourceTree = "<group>"; };
+		AD8D72ED1F3DAD0E00D5969F /* Creator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Creator.swift; sourceTree = "<group>"; };
 		AD8D72EF1F3DC8AD00D5969F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AD8D72F01F3DC8B900D5969F /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		AD8D72F21F3DCDEB00D5969F /* LunchViewControllerPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchViewControllerPage.swift; sourceTree = "<group>"; };
@@ -257,7 +257,7 @@
 			children = (
 				AD8D72B21F3DA6D900D5969F /* Lunch.h */,
 				AD8D72B31F3DA6D900D5969F /* Info.plist */,
-				AD8D72E11F3DA80C00D5969F /* Makeable.swift */,
+				AD8D72E11F3DA80C00D5969F /* Creatable.swift */,
 				AD8D72E31F3DA83300D5969F /* Launcher.swift */,
 				AD8D72DF1F3DA74E00D5969F /* LaunchKeys.swift */,
 			);
@@ -279,7 +279,7 @@
 		AD8D72EC1F3DAC2E00D5969F /* Supports */ = {
 			isa = PBXGroup;
 			children = (
-				AD8D72ED1F3DAD0E00D5969F /* Maker.swift */,
+				AD8D72ED1F3DAD0E00D5969F /* Creator.swift */,
 			);
 			path = Supports;
 			sourceTree = "<group>";
@@ -441,7 +441,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = fromKK;
 				TargetAttributes = {
 					AD7639571F47121900BDF5A8 = {
@@ -572,7 +572,7 @@
 				ADFEB5BB1F3EA19B00248E78 /* BreakfastViewController.swift in Sources */,
 				AD8D728E1F3DA6C900D5969F /* LunchViewController.swift in Sources */,
 				ADFEB5BD1F3EA1BC00248E78 /* MenuRepresentable.swift in Sources */,
-				AD8D72EE1F3DAD0E00D5969F /* Maker.swift in Sources */,
+				AD8D72EE1F3DAD0E00D5969F /* Creator.swift in Sources */,
 				AD8D728C1F3DA6C900D5969F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,7 +595,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD8D72F51F3DCF2D00D5969F /* LaunchKeys.swift in Sources */,
-				AD8D72E21F3DA80C00D5969F /* Makeable.swift in Sources */,
+				AD8D72E21F3DA80C00D5969F /* Creatable.swift in Sources */,
 				AD8D72E41F3DA83300D5969F /* Launcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -721,7 +721,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -729,7 +731,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -773,7 +779,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -781,7 +789,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1010,6 +1022,7 @@
 				AD7639611F47121900BDF5A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD7639711F47150500BDF5A8 /* Build configuration list for PBXNativeTarget "LunchTestTests" */ = {
 			isa = XCConfigurationList;
@@ -1018,6 +1031,7 @@
 				AD7639731F47150500BDF5A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AD8D72831F3DA6C900D5969F /* Build configuration list for PBXProject "LunchSample" */ = {
 			isa = XCConfigurationList;

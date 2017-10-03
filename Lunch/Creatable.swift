@@ -1,5 +1,5 @@
 //
-//  Maker.swift
+//  Creatable.swift
 //  LunchSample
 //
 //  Created by Kazuya Ueoka on 2017/08/11.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-public protocol Makeable {
-    func make<T>(_ identifier: String, userInfo: [AnyHashable: Any]?) -> T?
+public protocol Creatable {
+    func create<T>(_ identifier: String, userInfo: [AnyHashable: Any]?) -> T?
 }

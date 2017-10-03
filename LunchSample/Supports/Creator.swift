@@ -1,5 +1,5 @@
 //
-//  Maker.swift
+//  Creator.swift
 //  LunchSample
 //
 //  Created by Kazuya Ueoka on 2017/08/11.
@@ -9,8 +9,8 @@
 import Foundation
 import Lunch
 
-struct Maker: Makeable {
-    func make<T>(_ identifier: String, userInfo: [AnyHashable : Any]?) -> T? {
+struct Creator: Creatable {
+    func create<T>(_ identifier: String, userInfo: [AnyHashable : Any]?) -> T? {
         switch identifier {
         case "BreakfastViewController":
             let model: MenuModel
@@ -31,7 +31,7 @@ struct Maker: Makeable {
     }
 }
 
-extension Maker {
+extension Creator {
     func breakfastViewController(menu: MenuRepresentable) -> BreakfastViewController {
         return BreakfastViewController(menuModel: menu)
     }
