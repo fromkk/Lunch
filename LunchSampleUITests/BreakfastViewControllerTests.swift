@@ -11,7 +11,7 @@ import LunchTest
 
 class BreakfastViewControllerTests: XCTestCase, ViewControllerTestable {
     var viewControllerName: String {
-        return "BreakfastViewController"
+        return ViewControllerNames.breakFastViewController.rawValue
     }
     
     override func setUp() {

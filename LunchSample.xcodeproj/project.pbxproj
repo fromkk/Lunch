@@ -29,6 +29,11 @@
 		AD8D72F41F3DCED700D5969F /* LunchTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8D72D31F3DA70000D5969F /* LunchTest.framework */; };
 		AD8D72F51F3DCF2D00D5969F /* LaunchKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72DF1F3DA74E00D5969F /* LaunchKeys.swift */; };
 		AD8D72F61F3DCF2D00D5969F /* LaunchKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72DF1F3DA74E00D5969F /* LaunchKeys.swift */; };
+		AD9137B61F8313A6009D0C87 /* LocaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9137B51F8313A6009D0C87 /* LocaleViewController.swift */; };
+		AD9137B81F8314E7009D0C87 /* LocaleViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9137B71F8314E7009D0C87 /* LocaleViewControllerTests.swift */; };
+		AD9137BA1F831563009D0C87 /* LocaleViewControllerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9137B91F831563009D0C87 /* LocaleViewControllerPage.swift */; };
+		AD9137BC1F831699009D0C87 /* ViewControllerNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9137BB1F831699009D0C87 /* ViewControllerNames.swift */; };
+		AD9137BD1F8316C2009D0C87 /* ViewControllerNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9137BB1F831699009D0C87 /* ViewControllerNames.swift */; };
 		ADFEB5AD1F3DD06500248E78 /* Lunch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8D72B01F3DA6D900D5969F /* Lunch.framework */; };
 		ADFEB5AF1F3DD16500248E78 /* Lunch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD8D72B01F3DA6D900D5969F /* Lunch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ADFEB5B41F3DD1AE00248E78 /* DinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEB5B31F3DD1AE00248E78 /* DinnerViewController.swift */; };
@@ -118,6 +123,10 @@
 		AD8D72EF1F3DC8AD00D5969F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AD8D72F01F3DC8B900D5969F /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		AD8D72F21F3DCDEB00D5969F /* LunchViewControllerPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LunchViewControllerPage.swift; sourceTree = "<group>"; };
+		AD9137B51F8313A6009D0C87 /* LocaleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleViewController.swift; sourceTree = "<group>"; };
+		AD9137B71F8314E7009D0C87 /* LocaleViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleViewControllerTests.swift; sourceTree = "<group>"; };
+		AD9137B91F831563009D0C87 /* LocaleViewControllerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleViewControllerPage.swift; sourceTree = "<group>"; };
+		AD9137BB1F831699009D0C87 /* ViewControllerNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerNames.swift; sourceTree = "<group>"; };
 		ADFEB5B31F3DD1AE00248E78 /* DinnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinnerViewController.swift; sourceTree = "<group>"; };
 		ADFEB5B51F3DD32000248E78 /* DinnerViewControllerPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinnerViewControllerPage.swift; sourceTree = "<group>"; };
 		ADFEB5B71F3DD38100248E78 /* DinnerViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinnerViewControllerTests.swift; sourceTree = "<group>"; };
@@ -232,6 +241,7 @@
 				ADFEB5BA1F3EA19B00248E78 /* BreakfastViewController.swift */,
 				AD8D728D1F3DA6C900D5969F /* LunchViewController.swift */,
 				ADFEB5B31F3DD1AE00248E78 /* DinnerViewController.swift */,
+				AD9137B51F8313A6009D0C87 /* LocaleViewController.swift */,
 				AD8D728F1F3DA6C900D5969F /* Main.storyboard */,
 				AD8D72921F3DA6C900D5969F /* Assets.xcassets */,
 				AD8D72941F3DA6C900D5969F /* LaunchScreen.storyboard */,
@@ -247,6 +257,7 @@
 				AD8D72A01F3DA6C900D5969F /* LunchViewControllerTests.swift */,
 				ADFEB5B71F3DD38100248E78 /* DinnerViewControllerTests.swift */,
 				ADFEB5C01F3EA26400248E78 /* BreakfastViewControllerTests.swift */,
+				AD9137B71F8314E7009D0C87 /* LocaleViewControllerTests.swift */,
 				AD8D72A21F3DA6C900D5969F /* Info.plist */,
 			);
 			path = LunchSampleUITests;
@@ -280,6 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				AD8D72ED1F3DAD0E00D5969F /* Creator.swift */,
+				AD9137BB1F831699009D0C87 /* ViewControllerNames.swift */,
 			);
 			path = Supports;
 			sourceTree = "<group>";
@@ -290,6 +302,7 @@
 				AD8D72F21F3DCDEB00D5969F /* LunchViewControllerPage.swift */,
 				ADFEB5B51F3DD32000248E78 /* DinnerViewControllerPage.swift */,
 				ADFEB5BE1F3EA21700248E78 /* BreakfastViewControllerPage.swift */,
+				AD9137B91F831563009D0C87 /* LocaleViewControllerPage.swift */,
 			);
 			name = Pages;
 			path = Components;
@@ -572,8 +585,10 @@
 				ADFEB5BB1F3EA19B00248E78 /* BreakfastViewController.swift in Sources */,
 				AD8D728E1F3DA6C900D5969F /* LunchViewController.swift in Sources */,
 				ADFEB5BD1F3EA1BC00248E78 /* MenuRepresentable.swift in Sources */,
+				AD9137B61F8313A6009D0C87 /* LocaleViewController.swift in Sources */,
 				AD8D72EE1F3DAD0E00D5969F /* Creator.swift in Sources */,
 				AD8D728C1F3DA6C900D5969F /* AppDelegate.swift in Sources */,
+				AD9137BC1F831699009D0C87 /* ViewControllerNames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,10 +597,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADFEB5B81F3DD38100248E78 /* DinnerViewControllerTests.swift in Sources */,
+				AD9137B81F8314E7009D0C87 /* LocaleViewControllerTests.swift in Sources */,
 				ADFEB5BF1F3EA21700248E78 /* BreakfastViewControllerPage.swift in Sources */,
 				ADFEB5C11F3EA26400248E78 /* BreakfastViewControllerTests.swift in Sources */,
 				AD8D72A11F3DA6C900D5969F /* LunchViewControllerTests.swift in Sources */,
+				AD9137BA1F831563009D0C87 /* LocaleViewControllerPage.swift in Sources */,
 				ADFEB5B61F3DD32000248E78 /* DinnerViewControllerPage.swift in Sources */,
+				AD9137BD1F8316C2009D0C87 /* ViewControllerNames.swift in Sources */,
 				AD8D72F31F3DCDEB00D5969F /* LunchViewControllerPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

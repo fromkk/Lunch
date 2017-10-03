@@ -19,8 +19,8 @@ class LauncherTests: XCTestCase {
         }
     }
     
-    struct Maker: Makeable {
-        func make<T>(_ identifier: String, userInfo: [AnyHashable : Any]?) -> T? {
+    struct Creator: Creatable {
+        func create<T>(_ identifier: String, userInfo: [AnyHashable : Any]?) -> T? {
             if "Object" == identifier {
                 return Object(value: userInfo?["value"] as? String) as? T
             }
@@ -40,11 +40,11 @@ class LauncherTests: XCTestCase {
     }
     
     func testLauncher() {
-        XCTAssertNil(Maker().make("Test", userInfo: nil))
+        XCTAssertNil(Creator().create("Test", userInfo: nil))
         
-        XCTAssertEqual(Object(), Maker().make("Object", userInfo: nil))
+        XCTAssertEqual(Object(), Creator().create("Object", userInfo: nil))
         
-        XCTAssertEqual(Object(value: "Hello"), Maker().make("Object", userInfo: ["value": "Hello"]))
+        XCTAssertEqual(Object(value: "Hello"), Creator().create("Object", userInfo: ["value": "Hello"]))
     }
     
 }

@@ -11,8 +11,10 @@ import Lunch
 
 struct Creator: Creatable {
     func create<T>(_ identifier: String, userInfo: [AnyHashable : Any]?) -> T? {
-        switch identifier {
-        case "BreakfastViewController":
+        guard let viewControllerName = ViewControllerNames(rawValue: identifier) else { return nil }
+        
+        switch viewControllerName {
+        case .breakFastViewController:
             let model: MenuModel
             if let data = (userInfo?["MOCK_JSON"] as? String)?.data(using: .utf8),
             let json: [String: String] = (try? JSONSerialization.jsonObject(with: data, options: [])) as? [String: String] {
@@ -20,13 +22,13 @@ struct Creator: Creatable {
             } else {
                 model = MenuModel(menu: "")
             }
-            return self.breakfastViewController(menu: model) as? T
-        case "LunchViewController":
-            return self.lunchViewController() as? T
-        case "DinnerViewController":
-            return self.dinnerViewController() as? T
-        default:
-            return nil
+            return breakfastViewController(menu: model) as? T
+        case .lunchViewController:
+            return lunchViewController() as? T
+        case .dinnerViewController:
+            return dinnerViewController() as? T
+        case .localeViewController:
+            return localeViewController() as? T
         }
     }
 }
@@ -43,5 +45,9 @@ extension Creator {
     
     func dinnerViewController() -> DinnerViewController {
         return DinnerViewController()
+    }
+    
+    func localeViewController() -> LocaleViewController {
+        return LocaleViewController()
     }
 }

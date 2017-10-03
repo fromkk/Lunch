@@ -12,7 +12,7 @@ import LunchTest
 class DinnerViewControllerTests: XCTestCase, ViewControllerTestable {
     
     var viewControllerName: String {
-        return "DinnerViewController"
+        return ViewControllerNames.dinnerViewController.rawValue
     }
     
     override func setUp() {
