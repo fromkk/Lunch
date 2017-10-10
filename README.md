@@ -55,10 +55,10 @@ let rootViewController: UIViewController
 if let viewController: UIViewController = Launcher(with: creator).launch() {
     rootViewController = viewController
 } else {
-    rootViewController = creator.viewController()
+    rootViewController = creator.lunchViewController()
 }
 #else
-rootViewController = creator.viewController()
+rootViewController = creator.lunchViewController()
 #endif
 window?.rootViewController = rootViewController
 ```
