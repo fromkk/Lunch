@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/fromkk/Lunch.svg?branch=master)](https://travis-ci.org/fromkk/Lunch)
+
 # Lunch
 
 <img src="https://user-images.githubusercontent.com/322930/31062950-9f8bf88c-a769-11e7-962a-2f228c4b2de7.png" width="480" height="auto">

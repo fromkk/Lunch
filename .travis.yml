@@ -1,0 +1,8 @@
+language: objective-c
+matrix:
+    include:
+        - osx_image: xcode9.3beta
+
+script:
+    - xcodebuild build test -project LunchSample.xcodeproj -scheme Lunch -configuration Debug -destination "platform=iOS Simulator,name=iPhone X"
+    - xcodebuild build test -project LunchSample.xcodeproj -scheme LunchTest -configuration Debug -destination "platform=iOS Simulator,name=iPhone X"
