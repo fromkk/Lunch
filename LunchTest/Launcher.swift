@@ -9,10 +9,18 @@
 import Foundation
 import XCTest
 
-public struct Launcher {
+public class Launcher {
     public var targetViewController: ViewControllerTestable
     public var locale: String
     public var userInfo: [AnyHashable: Any]?
+    public lazy var application: XCUIApplication = {
+        let app: XCUIApplication = XCUIApplication()
+        app.launchEnvironment = env
+        app.launchArguments = arguments
+        app.launch()
+        return app
+    }()
+    
     public init(targetViewController: ViewControllerTestable, locale: String = "ja-JP", userInfo: [AnyHashable: Any]? = nil) {
         self.targetViewController = targetViewController
         self.locale = locale
@@ -42,11 +50,13 @@ public struct Launcher {
     }
     
     @discardableResult
-    public func launch() -> XCUIApplication {
-        let app: XCUIApplication = XCUIApplication()
-        app.launchEnvironment = env
-        app.launchArguments = arguments
-        app.launch()
-        return app
+    public func launch(_ app: XCUIApplication? = nil) -> XCUIApplication {
+        if let app = app {
+            app.launch()
+            return app
+        } else {
+            self.application.launch()
+            return self.application
+        }
     }
 }
