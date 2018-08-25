@@ -17,7 +17,7 @@ class LocaleViewControllerTests: XCTestCase, ViewControllerTestable {
     
     func testJa_JP() {
         
-        let app = Launcher(targetViewController: self, locale: "ja-JP", userInfo: nil).launch()
+        let app = Launcher(targetViewController: self, locale: "ja_JP", userInfo: nil).launch()
         let page = LocaleViewControllerPage(app: app)
         
         XCTContext.runActivity(named: "languageLabelの値がjaである事を確認する") { (_) in
@@ -30,15 +30,15 @@ class LocaleViewControllerTests: XCTestCase, ViewControllerTestable {
             XCTAssertEqual(page.regionLabel.label, "JP")
         }
         
-        XCTContext.runActivity(named: "localeLabelの値がja-JPである事を確認する") { (_) in
+        XCTContext.runActivity(named: "localeLabelの値がja_JPである事を確認する") { (_) in
             XCTAssertTrue(page.localeLabel.exists)
-            XCTAssertEqual(page.localeLabel.label, "ja-JP")
+            XCTAssertEqual(page.localeLabel.label, "ja_JP")
         }
     }
     
     func testEn_US() {
         
-        let app = Launcher(targetViewController: self, locale: "en-US", userInfo: nil).launch()
+        let app = Launcher(targetViewController: self, locale: "en_US", userInfo: nil).launch()
         let page = LocaleViewControllerPage(app: app)
         
         XCTContext.runActivity(named: "languageLabelの値がenである事を確認する") { (_) in
@@ -51,9 +51,9 @@ class LocaleViewControllerTests: XCTestCase, ViewControllerTestable {
             XCTAssertEqual(page.regionLabel.label, "US")
         }
         
-        XCTContext.runActivity(named: "localeLabelの値がen-USである事を確認する") { (_) in
+        XCTContext.runActivity(named: "localeLabelの値がen_USである事を確認する") { (_) in
             XCTAssertTrue(page.localeLabel.exists)
-            XCTAssertEqual(page.localeLabel.label, "en-US")
+            XCTAssertEqual(page.localeLabel.label, "en_US")
         }
     }
 }
