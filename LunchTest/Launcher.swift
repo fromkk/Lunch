@@ -42,11 +42,32 @@ public class Launcher {
         return result
     }
     
+    private var language: String? {
+        let locales: [String]?
+        if locale.contains("-") {
+            locales = locale.components(separatedBy: "-")
+        } else if locale.contains("_") {
+            locales = locale.components(separatedBy: "_")
+        } else {
+            locales = nil
+        }
+        
+        return locales?.first
+    }
+    
     private var arguments: [String] {
-        return [
-            "-AppleLanguages", "(\(self.locale))",
+        var result: [String] = []
+        if let language = self.language {
+            result.append(contentsOf: [
+                "-AppleLanguages", "(\(language))",
+                ])
+        }
+        
+        result.append(contentsOf: [
             "-AppleLocale", self.locale,
-        ]
+            ])
+        
+        return result
     }
     
     @discardableResult
