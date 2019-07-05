@@ -28,7 +28,6 @@
 		AD8D72F31F3DCDEB00D5969F /* LunchViewControllerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72F21F3DCDEB00D5969F /* LunchViewControllerPage.swift */; };
 		AD8D72F41F3DCED700D5969F /* LunchTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD8D72D31F3DA70000D5969F /* LunchTest.framework */; };
 		AD8D72F51F3DCF2D00D5969F /* LaunchKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72DF1F3DA74E00D5969F /* LaunchKeys.swift */; };
-		AD8D72F61F3DCF2D00D5969F /* LaunchKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72DF1F3DA74E00D5969F /* LaunchKeys.swift */; };
 		AD9137B61F8313A6009D0C87 /* LocaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9137B51F8313A6009D0C87 /* LocaleViewController.swift */; };
 		AD9137B81F8314E7009D0C87 /* LocaleViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9137B71F8314E7009D0C87 /* LocaleViewControllerTests.swift */; };
 		AD9137BA1F831563009D0C87 /* LocaleViewControllerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9137B91F831563009D0C87 /* LocaleViewControllerPage.swift */; };
@@ -630,7 +629,6 @@
 			files = (
 				AD8D72E61F3DA88D00D5969F /* ViewControllerTestable.swift in Sources */,
 				AD8D72EB1F3DAA1600D5969F /* PageObjectsRepresentable.swift in Sources */,
-				AD8D72F61F3DCF2D00D5969F /* LaunchKeys.swift in Sources */,
 				AD8D72E81F3DA8A000D5969F /* Launcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
