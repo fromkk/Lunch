@@ -9,11 +9,6 @@
 import XCTest
 @testable import LunchTest
 
-public struct LaunchKeys {
-    public static let viewController: String = "LAUNCH_VIEW_CONTROLLER"
-    public static let userInfo: String = "LAUNCH_USER_INFO"
-}
-
 class LauncherTests: XCTestCase {
     
     struct ObjectLaunchable: ViewControllerTestable {
