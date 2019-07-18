@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/fromkk/Lunch.svg?branch=master)](https://travis-ci.org/fromkk/Lunch)
+[![Build Status](https://app.bitrise.io/app/f867ecf1d4e7e2b0/status.svg?token=ojd97UYMck4Wj2LREpRTiQ)](https://app.bitrise.io/app/f867ecf1d4e7e2b0)
 
 # Lunch
 
