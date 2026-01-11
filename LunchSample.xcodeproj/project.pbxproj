@@ -13,9 +13,7 @@
 		AD7639751F47152100BDF5A8 /* LauncherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7639741F47152100BDF5A8 /* LauncherTests.swift */; };
 		AD8D728C1F3DA6C900D5969F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D728B1F3DA6C900D5969F /* AppDelegate.swift */; };
 		AD8D728E1F3DA6C900D5969F /* LunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D728D1F3DA6C900D5969F /* LunchViewController.swift */; };
-		AD8D72911F3DA6C900D5969F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8D728F1F3DA6C900D5969F /* Main.storyboard */; };
 		AD8D72931F3DA6C900D5969F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8D72921F3DA6C900D5969F /* Assets.xcassets */; };
-		AD8D72961F3DA6C900D5969F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8D72941F3DA6C900D5969F /* LaunchScreen.storyboard */; };
 		AD8D72A11F3DA6C900D5969F /* LunchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8D72A01F3DA6C900D5969F /* LunchViewControllerTests.swift */; };
 		AD8D72B41F3DA6D900D5969F /* Lunch.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8D72B21F3DA6D900D5969F /* Lunch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD8D72D71F3DA70000D5969F /* LunchTest.h in Headers */ = {isa = PBXBuildFile; fileRef = AD8D72D51F3DA70000D5969F /* LunchTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,6 +57,20 @@
 			remoteGlobalIDString = AD8D72D21F3DA70000D5969F;
 			remoteInfo = LunchTest;
 		};
+		AD766E532F13693100F15A6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD8D72801F3DA6C900D5969F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD8D72871F3DA6C900D5969F;
+			remoteInfo = LunchSample;
+		};
+		AD766E552F13693400F15A6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD8D72801F3DA6C900D5969F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD8D72871F3DA6C900D5969F;
+			remoteInfo = LunchSample;
+		};
 		AD8D729D1F3DA6C900D5969F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = AD8D72801F3DA6C900D5969F /* Project object */;
@@ -90,8 +102,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AD419F4B2131061800A8C9BF /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
-		AD419F4C2131061800A8C9BF /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		AD7639581F47121900BDF5A8 /* LunchUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunchUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD76395C1F47121900BDF5A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD7639631F47122B00BDF5A8 /* LauncherTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LauncherTests.swift; sourceTree = "<group>"; };
@@ -101,9 +111,7 @@
 		AD8D72881F3DA6C900D5969F /* LunchSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunchSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8D728B1F3DA6C900D5969F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD8D728D1F3DA6C900D5969F /* LunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchViewController.swift; sourceTree = "<group>"; };
-		AD8D72901F3DA6C900D5969F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD8D72921F3DA6C900D5969F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AD8D72951F3DA6C900D5969F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD8D72971F3DA6C900D5969F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD8D729C1F3DA6C900D5969F /* LunchSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunchSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8D72A01F3DA6C900D5969F /* LunchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchViewControllerTests.swift; sourceTree = "<group>"; };
@@ -243,9 +251,7 @@
 				AD8D728D1F3DA6C900D5969F /* LunchViewController.swift */,
 				ADFEB5B31F3DD1AE00248E78 /* DinnerViewController.swift */,
 				AD9137B51F8313A6009D0C87 /* LocaleViewController.swift */,
-				AD8D728F1F3DA6C900D5969F /* Main.storyboard */,
 				AD8D72921F3DA6C900D5969F /* Assets.xcassets */,
-				AD8D72941F3DA6C900D5969F /* LaunchScreen.storyboard */,
 				AD8D72971F3DA6C900D5969F /* Info.plist */,
 			);
 			path = LunchSample;
@@ -351,6 +357,7 @@
 			);
 			dependencies = (
 				AD76395F1F47121900BDF5A8 /* PBXTargetDependency */,
+				AD766E542F13693100F15A6B /* PBXTargetDependency */,
 			);
 			name = LunchUnitTests;
 			productName = LunchUnitTests;
@@ -369,6 +376,7 @@
 			);
 			dependencies = (
 				AD7639701F47150500BDF5A8 /* PBXTargetDependency */,
+				AD766E562F13693400F15A6B /* PBXTargetDependency */,
 			);
 			name = LunchTestTests;
 			productName = LunchTestTests;
@@ -463,12 +471,14 @@
 						DevelopmentTeam = K84E4S7G4C;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
+						TestTargetID = AD8D72871F3DA6C900D5969F;
 					};
 					AD7639681F47150500BDF5A8 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = K84E4S7G4C;
 						LastSwiftMigration = 0930;
 						ProvisioningStyle = Automatic;
+						TestTargetID = AD8D72871F3DA6C900D5969F;
 					};
 					AD8D72871F3DA6C900D5969F = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -536,9 +546,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD8D72961F3DA6C900D5969F /* LaunchScreen.storyboard in Resources */,
 				AD8D72931F3DA6C900D5969F /* Assets.xcassets in Resources */,
-				AD8D72911F3DA6C900D5969F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,6 +654,16 @@
 			target = AD8D72D21F3DA70000D5969F /* LunchTest */;
 			targetProxy = AD76396F1F47150500BDF5A8 /* PBXContainerItemProxy */;
 		};
+		AD766E542F13693100F15A6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD8D72871F3DA6C900D5969F /* LunchSample */;
+			targetProxy = AD766E532F13693100F15A6B /* PBXContainerItemProxy */;
+		};
+		AD766E562F13693400F15A6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD8D72871F3DA6C900D5969F /* LunchSample */;
+			targetProxy = AD766E552F13693400F15A6B /* PBXContainerItemProxy */;
+		};
 		AD8D729E1F3DA6C900D5969F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = AD8D72871F3DA6C900D5969F /* LunchSample */;
@@ -658,39 +676,19 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		AD8D728F1F3DA6C900D5969F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD8D72901F3DA6C900D5969F /* Base */,
-				AD419F4B2131061800A8C9BF /* ja */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AD8D72941F3DA6C900D5969F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD8D72951F3DA6C900D5969F /* Base */,
-				AD419F4C2131061800A8C9BF /* ja */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		AD7639601F47121900BDF5A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = K84E4S7G4C;
 				INFOPLIST_FILE = LunchUnitTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fromkk.me.LunchUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunchSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LunchSample";
 			};
 			name = Debug;
 		};
@@ -699,12 +697,13 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = K84E4S7G4C;
 				INFOPLIST_FILE = LunchUnitTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fromkk.me.LunchUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunchSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LunchSample";
 			};
 			name = Release;
 		};
@@ -714,13 +713,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = K84E4S7G4C;
 				INFOPLIST_FILE = LunchTestTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fromkk.me.LunchTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunchSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LunchSample";
 			};
 			name = Debug;
 		};
@@ -730,12 +730,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = K84E4S7G4C;
 				INFOPLIST_FILE = LunchTestTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fromkk.me.LunchTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunchSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LunchSample";
 			};
 			name = Release;
 		};
@@ -789,7 +790,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -844,7 +845,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -935,7 +936,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Lunch/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.Lunch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -964,7 +965,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Lunch/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.Lunch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -996,12 +997,11 @@
 				);
 				INFOPLIST_FILE = LunchTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					XCTest,
-					"-weak-lswiftXCTest",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.LunchTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1033,12 +1033,11 @@
 				);
 				INFOPLIST_FILE = LunchTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"-weak_framework",
 					XCTest,
-					"-weak-lswiftXCTest",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = me.fromkk.LunchTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";

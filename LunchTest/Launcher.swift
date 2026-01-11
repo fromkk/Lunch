@@ -14,6 +14,7 @@ public struct LaunchKeys {
     public static let userInfo: String = "LAUNCH_USER_INFO"
 }
 
+@MainActor
 public class Launcher {
     public var targetViewController: ViewControllerTestable
     public var locale: String

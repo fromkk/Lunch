@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct LaunchKeys {
+public struct LaunchKeys: Sendable {
     public static let viewController: String = "LAUNCH_VIEW_CONTROLLER"
     public static let userInfo: String = "LAUNCH_USER_INFO"
 }

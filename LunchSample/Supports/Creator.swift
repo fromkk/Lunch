@@ -39,8 +39,7 @@ extension Creator {
     }
     
     func lunchViewController() -> LunchViewController {
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        return storyboard.instantiateInitialViewController() as! LunchViewController
+        return LunchViewController()
     }
     
     func dinnerViewController() -> DinnerViewController {

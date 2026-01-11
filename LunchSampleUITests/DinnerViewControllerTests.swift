@@ -9,6 +9,7 @@
 import XCTest
 import LunchTest
 
+@MainActor
 class DinnerViewControllerTests: XCTestCase, ViewControllerTestable {
     
     var viewControllerName: String {

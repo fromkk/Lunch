@@ -9,6 +9,7 @@
 import XCTest
 @testable import LunchTest
 
+@MainActor
 class LauncherTests: XCTestCase {
     
     struct ObjectLaunchable: ViewControllerTestable {

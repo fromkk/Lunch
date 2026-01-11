@@ -9,6 +9,7 @@
 import XCTest
 import LunchTest
 
+@MainActor
 class BreakfastViewControllerTests: XCTestCase, ViewControllerTestable {
     var viewControllerName: String {
         return ViewControllerNames.breakFastViewController.rawValue

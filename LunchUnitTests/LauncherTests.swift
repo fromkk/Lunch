@@ -9,6 +9,7 @@
 import XCTest
 @testable import Lunch
 
+@MainActor
 class LauncherTests: XCTestCase {
     
     struct Object: Equatable {
